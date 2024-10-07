@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Personal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Importa la fuente 'Montserrat' desde Google Fonts -->
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>  <!-- Lista no ordenada para los enlaces de navegación -->
+                <li><a href="#about">Sobre mí</a></li>   <!-- Enlace que lleva a la sección "Sobre mí" -->
+                <li><a href="#projects">Proyectos</a></li>  <!-- Enlace que lleva a la sección "Proyectos" -->
+                <li><a href="#contact">Contacto</a></li> <!-- Enlace que lleva a la sección "Contacto" -->
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">  <!-- Sección "Sobre mí" con un título y una breve descripción -->
+        <h1>¡Hola, soy Ana Sol!</h1>
+        <p>Desarrolladora en constante aprendizaje, enfocada en tecnologías modernas y soluciones innovadoras.</p>
+    </section>
+
+    <!-- Sección para la tabla de tecnologías y hobbies -->
+    <section id="technologies">
+        <h2>Tecnologías y Hobbies</h2>
+        <table>
+            <tr>
+                <th>Tecnologías Conocidas</th>
+                <th>Tecnologías por Aprender</th>
+                <th>Hobbies</th>
+            </tr>
+            <tr>
+                <td>HTML, CSS</td>
+                <td>JavaScript, React</td>
+                <td>Lectura, Fotografía</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Sección "Proyectos" con un título y una cuadrícula para mostrar proyectos -->
+    <section id="projects">
+        <h2>Proyectos Recientes</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Proyecto 1</h3>
+                <p>Descripción breve del proyecto.</p>
+            </div>
+            <div class="project-card">
+                <h3>Proyecto 2</h3>
+                <p>Descripción breve del proyecto.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de contacto -->
+    <section id="contact">
+        <h2>Contáctame</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono"><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer> <!-- Sección de pie de página con la información de contacto -->
+        <p>Email: anasolmase@gmail.com</p>
+    </footer>
+
+</body>
+</html>

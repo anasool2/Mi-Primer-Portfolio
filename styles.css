@@ -1,0 +1,105 @@
+/* Fuente y estilos básicos */
+body {
+    font-family: 'Montserrat', sans-serif;  /* Aplica la fuente Montserrat a todo el cuerpo de la página */
+    background-color: #f7f7f7;  /* Color de fondo claro */
+    color: #333; /* Color de texto oscuro */
+    margin: 0;
+    padding: 0;  /* Elimina márgenes y relleno por defecto */
+}
+
+header {
+    background-color: #fff; /* Fondo blanco para el encabezado */
+    padding: 1rem;  /* Relleno de 1rem alrededor del contenido del encabezado */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);   /* Sombra sutil para dar profundidad al encabezado */
+}
+
+nav ul {
+    list-style-type: none;   /* Elimina los puntos de la lista */
+    display: flex; /* Los elementos de la lista se alinean horizontalmente */
+    justify-content: center; /* Centra los enlaces de navegación */
+    padding: 0;  /* Elimina el relleno adicional */
+}
+
+nav ul li {
+    margin: 0 1rem;  /* Espacio entre cada enlace */
+}
+
+nav ul li a {
+    text-decoration: none;  /* Elimina el subrayado de los enlaces */
+    color: #333; /* Color del texto de los enlaces */
+    font-weight: 700; /* Hace los enlaces más gruesos */
+    transition: color 0.3s ease;  /* Transición suave en el cambio de color al pasar el mouse */
+}
+
+nav ul li a:hover {
+    color: #ff6b6b;  /* Cambia el color del enlace al pasar el mouse */
+}
+
+section { 
+    padding: 2rem;  /* Espacio de 2rem alrededor de cada sección */
+    text-align: center; /* Centra el texto de las secciones */
+}
+
+#about h1 {
+    font-size: 2.5rem;  /* Tamaño grande para el título de la sección "Sobre mí" */
+    margin-bottom: 1rem; /* Espacio debajo del título */
+}
+
+
+
+/* Estilos para la tabla de tecnologías */
+#technologies table {
+    width: 100%;  /* La tabla ocupa el 100% del ancho disponible */
+    max-width: 800px; /* Limita el ancho máximo de la tabla */
+    margin: 0 auto;  /* Centra la tabla horizontalmente */
+    border-collapse: collapse; /* Colapsa los bordes de la tabla */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra  alrededor de la tabla */
+}
+
+#technologies th, #technologies td {
+    padding: 1rem;   /* Espacio interno en las celdas de la tabla */
+    border: 1px solid #ddd;  /* Borde fino y gris claro en las celdas */
+}
+
+#technologies th {
+    background-color: #ff6b6b; /* Fondo para las cabeceras de la tabla */
+    color: white; /* Texto blanco en las cabeceras */
+}
+
+#technologies td {
+    background-color: #fff;  /* Fondo blanco para las celdas */
+}
+
+#projects .project-grid {
+    display: flex; /* Los proyectos se alinean horizontalmente */
+    justify-content: center;  /* Centra los elementos del grid */
+    gap: 2rem;   /* Espacio entre cada proyecto */
+}
+
+.project-card {
+    background-color: #fff; /* Fondo blanco para cada tarjeta de proyecto */
+    padding: 1.5rem;   /* Espacio interno de 1.5rem */
+    border-radius: 8px;   /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra alrededor de la tarjeta */
+    transition: transform 0.3s ease;  /* Transición suave en la transformación (hover) */
+}
+
+.project-card:hover {
+    transform: scale(1.05);    /* Aumenta ligeramente el tamaño de la tarjeta al pasar el mouse */
+}
+
+footer {
+    background-color: #333; /* Fondo oscuro para el pie de página */
+    color: #fff; /* Texto blanco */
+    padding: 1rem; /* Relleno de 1rem */
+    text-align: center;  /* Texto centrado */
+}
+
+footer h2 {
+    font-size: 1.5rem;  /* Tamaño de fuente para el título de la sección de contacto */
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem; /* Tamaño de fuente para el texto del pie de página */
+}
